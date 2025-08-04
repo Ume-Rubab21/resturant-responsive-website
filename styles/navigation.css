@@ -1,0 +1,117 @@
+.navigations{
+    height: 210px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /*flexbox container */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px,100px,60px,100px;
+}
+
+/*left column start here*/
+.navigations>.left-column{
+    display: flex;
+    align-items: center;
+}
+
+.navigations> .left-column>.icon{
+    margin-right: 15px;
+}
+.navigations> .left-column>.icon i{
+    font-size: 2em;
+}
+
+.navigations>.left-column>.contact-hours-nav{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 10px; 
+}
+
+.navigations>.left-column>.contact-hours-nav > .hours{
+
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+.links-wrappers>.nav-link a{
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: white;
+}
+
+/*center column start here*/
+.navigations>.center-column{
+    display: grid ;
+    grid-template-columns: 1fr;
+    grid-gap:42px;
+    width:500px
+
+}
+
+
+.banner-image img{
+   margin-top: 3px;
+    align-items: center;
+    width: 150px;
+    height: 60%;
+    justify-content: center;
+    margin-left: 180px;
+}
+.links-wrappers{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.links-wrappers>.nav-link {
+     width: 50px;
+     text-align: center;
+}
+.links-wrappers>.nav-link a{
+    font-family: "Ubuntu Condensed", sans-serif;
+    color:#cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrappers>.nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+} 
+
+/*right column start here*/
+.navigations>.right-column{
+    display: flex;
+    align-items:  center;
+
+
+}
+.navigations> .right-column>.address-nav{
+    font-family: "Ubuntu Condensed", sans-serif;
+     text-align: right;
+}
+
+.navigations> .right-column>.address-nav a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigations> .right-column>.address-nav a:hover{
+    color: #cea135;
+    
+}
+
+.navigations>.right-column>.location-icon {
+    margin-left: 15px ;
+    font-size: 2em;
+}
+.navigations>.right-column>.location-icon a {
+   color: #cbcbcb;
+   transition: 0.5s;
+}
+.navigations>.right-column>.location-icon a:hover {
+   color: #cea135;
+}
